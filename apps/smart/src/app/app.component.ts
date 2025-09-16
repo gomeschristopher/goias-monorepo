@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { ButtonComponent } from '@goias/button';
+import { ButtonIdGoiasComponent } from '@goias/button-id-goias';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, ButtonComponent],
+  imports: [NxWelcomeComponent, RouterModule, ButtonIdGoiasComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
