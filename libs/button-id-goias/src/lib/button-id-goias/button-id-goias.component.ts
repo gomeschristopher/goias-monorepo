@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,4 +8,12 @@ import { CommonModule } from '@angular/common';
   templateUrl: './button-id-goias.component.html',
   styleUrl: './button-id-goias.component.css',
 })
-export class ButtonIdGoiasComponent {}
+export class ButtonIdGoiasComponent {
+  @Input() label: string | null = null;
+  @Input() variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
+  @Input() disabled = false;
+
+  getClasses(): string {
+    return this.variant;
+  }
+}

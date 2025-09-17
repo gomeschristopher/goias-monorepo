@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
-import { ButtonIdGoiasComponent } from '@goias/button-id-goias';
+import { ButtonIdGoiasComponent } from '@goias-ssi/button-id-goias';
 
 @Component({
   standalone: true,
