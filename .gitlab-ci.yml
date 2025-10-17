@@ -1,0 +1,4 @@
+include:
+  - project: 'ssi-devops/gitlab-ci-templates'
+    ref: master
+    file: 'npm-smart-nexus-publisher.gitlab-ci.yml'
