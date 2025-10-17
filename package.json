@@ -14,13 +14,13 @@
     "@angular/platform-browser-dynamic": "19.2.9",
     "@angular/router": "19.2.9",
     "@nx/angular": "20.5.0",
+    "@storybook/addon-interactions": "^8.2.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rxjs": "~7.8.0",
+    "storybook": "^8.2.8",
     "tslib": "^2.3.0",
-    "zone.js": "0.15.1",
-    "@storybook/addon-interactions": "^8.2.8",
-    "storybook": "^8.2.8"
+    "zone.js": "0.15.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "19.2.9",
@@ -32,6 +32,7 @@
     "@angular/cli": "~17.3.0",
     "@angular/compiler-cli": "19.2.9",
     "@angular/language-service": "19.2.9",
+    "@compodoc/compodoc": "^1.1.26",
     "@nx/eslint": "20.5.0",
     "@nx/eslint-plugin": "20.5.0",
     "@nx/jest": "20.5.0",

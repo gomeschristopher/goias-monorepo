@@ -382,6 +382,10 @@
       "libs/storybook-host/project.json",
       "nx/core/project-json"
     ],
+    "targets.storybook.options.compodocArgs": [
+      "libs/storybook-host/project.json",
+      "nx/core/project-json"
+    ],
     "targets.storybook.configurations.ci": [
       "libs/storybook-host/project.json",
       "nx/core/project-json"
