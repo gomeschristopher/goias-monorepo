@@ -13,161 +13,75 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "8140496813707390410"
-      },
-      {
-        "file": "CHANGELOG.md",
-        "hash": "18328256492162563661"
-      },
-      {
-        "file": ".gitlab-ci.yml",
-        "hash": "3257201479836507190"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "2650076270958233661"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": "README.md",
-        "hash": "17585787051538338085"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13405269190411680430"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16627082522123668221"
       },
       {
         "file": "package.json",
         "hash": "12353313964567955617"
       },
       {
-        "file": ".gitignore",
-        "hash": "16654464098863188092"
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13405269190411680430"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8140496813707390410"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".gitlab-ci.yml",
+        "hash": "3257201479836507190"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".prettierignore",
         "hash": "3395189204293871444"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "18328256492162563661"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16627082522123668221"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16654464098863188092"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "2650076270958233661"
+      },
+      {
+        "file": "README.md",
+        "hash": "17585787051538338085"
       }
     ],
     "projectFileMap": {
-      "storybook-host": [
-        {
-          "file": "libs/storybook-host/.eslintrc.json",
-          "hash": "9723268790432406376"
-        },
-        {
-          "file": "libs/storybook-host/.storybook/main.ts",
-          "hash": "17721244823913231880",
-          "deps": [
-            "npm:@storybook/angular"
-          ]
-        },
-        {
-          "file": "libs/storybook-host/.storybook/preview.ts",
-          "hash": "6182453809776308346",
-          "deps": [
-            "npm:zone.js",
-            "npm:@storybook/addon-docs"
-          ]
-        },
-        {
-          "file": "libs/storybook-host/.storybook/tsconfig.json",
-          "hash": "4739245322132176848"
-        },
-        {
-          "file": "libs/storybook-host/README.md",
-          "hash": "4043194519546553436"
-        },
-        {
-          "file": "libs/storybook-host/jest.config.ts",
-          "hash": "8822813139785646103"
-        },
-        {
-          "file": "libs/storybook-host/ng-package.json",
-          "hash": "1401697217500339079"
-        },
-        {
-          "file": "libs/storybook-host/package-lock.json",
-          "hash": "9918464406698497052"
-        },
-        {
-          "file": "libs/storybook-host/package.json",
-          "hash": "2989463707773386833",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/storybook-host/project.json",
-          "hash": "10405922418219181535"
-        },
-        {
-          "file": "libs/storybook-host/src/index.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/storybook-host/src/lib/Molecules/button-id-goias.component.stories.ts",
-          "hash": "9512438691685652727",
-          "deps": [
-            "npm:@storybook/angular",
-            "button-id-goias"
-          ]
-        },
-        {
-          "file": "libs/storybook-host/src/test-setup.ts",
-          "hash": "12935735732682149507"
-        },
-        {
-          "file": "libs/storybook-host/tsconfig.json",
-          "hash": "3858127637514423861"
-        },
-        {
-          "file": "libs/storybook-host/tsconfig.lib.json",
-          "hash": "12496680018945969286"
-        },
-        {
-          "file": "libs/storybook-host/tsconfig.lib.prod.json",
-          "hash": "174503844014784742"
-        },
-        {
-          "file": "libs/storybook-host/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
       "smart": [
         {
           "file": "apps/smart/.eslintrc.json",
@@ -250,6 +164,108 @@
         },
         {
           "file": "apps/smart/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "storybook-host": [
+        {
+          "file": "libs/storybook-host/.eslintrc.json",
+          "hash": "9723268790432406376"
+        },
+        {
+          "file": "libs/storybook-host/.storybook/main.ts",
+          "hash": "14436988096756493778",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
+        },
+        {
+          "file": "libs/storybook-host/.storybook/preview.ts",
+          "hash": "6182453809776308346",
+          "deps": [
+            "npm:zone.js",
+            "npm:@storybook/addon-docs"
+          ]
+        },
+        {
+          "file": "libs/storybook-host/.storybook/tsconfig.json",
+          "hash": "4739245322132176848"
+        },
+        {
+          "file": "libs/storybook-host/README.md",
+          "hash": "4043194519546553436"
+        },
+        {
+          "file": "libs/storybook-host/jest.config.ts",
+          "hash": "8822813139785646103"
+        },
+        {
+          "file": "libs/storybook-host/ng-package.json",
+          "hash": "1401697217500339079"
+        },
+        {
+          "file": "libs/storybook-host/package-lock.json",
+          "hash": "9918464406698497052"
+        },
+        {
+          "file": "libs/storybook-host/package.json",
+          "hash": "2989463707773386833",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/storybook-host/project.json",
+          "hash": "13522054090560254833"
+        },
+        {
+          "file": "libs/storybook-host/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Atoms/colors.mdx",
+          "hash": "11425482482707880195"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Introdução.mdx",
+          "hash": "4809107540285755144"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/Docs.mdx",
+          "hash": "12515813556002416890"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/button-id-goias/button-id-goias.component.stories.ts",
+          "hash": "9512438691685652727",
+          "deps": [
+            "npm:@storybook/angular",
+            "button-id-goias"
+          ]
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/como-importar-button.mdx",
+          "hash": "4305908338785236863"
+        },
+        {
+          "file": "libs/storybook-host/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "libs/storybook-host/tsconfig.json",
+          "hash": "3858127637514423861"
+        },
+        {
+          "file": "libs/storybook-host/tsconfig.lib.json",
+          "hash": "12496680018945969286"
+        },
+        {
+          "file": "libs/storybook-host/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "libs/storybook-host/tsconfig.spec.json",
           "hash": "2927375835638640771"
         }
       ],

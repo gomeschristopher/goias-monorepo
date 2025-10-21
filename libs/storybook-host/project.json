@@ -65,7 +65,13 @@
         "outputDir": "dist/storybook/storybook-host",
         "configDir": "libs/storybook-host/.storybook",
         "browserTarget": "storybook-host:build-storybook",
-        "compodoc": true
+        "compodoc": true,
+        "compodocArgs": [
+          "-e",
+          "json",
+          "-d",
+          "libs/storybook-host"
+        ]
       },
       "configurations": {
         "ci": {
