@@ -9,6 +9,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './button-id-goias.component.css',
 })
 export class ButtonIdGoiasComponent {
+  /**
+   * Descrição do rótulo do botão
+   */
   @Input() label: string | null = null;
   @Input() variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
   @Input() disabled = false;

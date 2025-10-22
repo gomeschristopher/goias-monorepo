@@ -13,32 +13,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "tsconfig.base.json",
+        "hash": "11968232764503119662"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "migrations.json",
+        "hash": "2650076270958233661"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".gitignore",
         "hash": "16654464098863188092"
       },
       {
-        "file": ".gitlab-ci.yml",
-        "hash": "3257201479836507190"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "package.json",
+        "hash": "12353313964567955617"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6697807833303087929"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "README.md",
+        "hash": "17585787051538338085"
       },
       {
         "file": ".vscode/extensions.json",
@@ -49,36 +65,20 @@
         "hash": "18328256492162563661"
       },
       {
-        "file": "README.md",
-        "hash": "17585787051538338085"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "2650076270958233661"
-      },
-      {
-        "file": "nx.json",
-        "hash": "6697807833303087929"
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
       },
       {
         "file": "package-lock.json",
         "hash": "8140496813707390410"
       },
       {
-        "file": "package.json",
-        "hash": "12353313964567955617"
+        "file": ".gitlab-ci.yml",
+        "hash": "3257201479836507190"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "11968232764503119662"
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
       }
     ],
     "projectFileMap": {
@@ -242,7 +242,7 @@
         },
         {
           "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.ts",
-          "hash": "9462591668550617392",
+          "hash": "17288665611056671470",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
