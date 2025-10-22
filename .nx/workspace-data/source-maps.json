@@ -1,210 +1,4 @@
 {
-  "libs/button-id-goias": {
-    "root": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "name": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:public": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.packageName": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "targets": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.nx-release-publish": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.nx-release-publish.executor": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.nx-release-publish.dependsOn": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.nx-release-publish.options": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.nx-release-publish.options.packageRoot": [
-      "libs/button-id-goias/package.json",
-      "nx/core/package-json"
-    ],
-    "$schema": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "prefix": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.outputs": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.defaultConfiguration": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.project": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.production.tsConfig": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.configurations.development.tsConfig": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.executor": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.outputs": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.jestConfig": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.executor": [
-      "libs/button-id-goias/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.nx-release-publish.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.options.passWithNoTests": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.configurations.ci": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.configurations.ci.ci": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.configurations.ci.codeCoverage": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ]
-  },
   "libs/storybook-host": {
     "root": [
       "libs/storybook-host/project.json",
@@ -547,6 +341,212 @@
       "nx/target-defaults"
     ],
     "targets.build-storybook.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/ui/button-id-goias": {
+    "root": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options.packageRoot": [
+      "libs/ui/button-id-goias/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.project": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.tsConfig": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.tsConfig": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/ui/button-id-goias/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.nx-release-publish.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
       "nx.json",
       "nx/target-defaults"
     ]

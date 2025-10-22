@@ -3,7 +3,7 @@
   "nxVersion": "20.5.0",
   "pathMappings": {
     "@goias-ssi/button-id-goias": [
-      "libs/button-id-goias/src/index.ts"
+      "libs/ui/button-id-goias/src/index.ts"
     ],
     "@goias/ds-storybook": [
       "libs/storybook-host/src/index.ts"
@@ -13,160 +13,75 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
-        "file": "package.json",
-        "hash": "12353313964567955617"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "13405269190411680430"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "8140496813707390410"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": ".gitignore",
+        "hash": "16654464098863188092"
       },
       {
         "file": ".gitlab-ci.yml",
         "hash": "3257201479836507190"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
         "file": ".prettierignore",
         "hash": "3395189204293871444"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       },
       {
         "file": "CHANGELOG.md",
         "hash": "18328256492162563661"
       },
       {
-        "file": "nx.json",
-        "hash": "16627082522123668221"
+        "file": "README.md",
+        "hash": "17585787051538338085"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
-        "file": ".gitignore",
-        "hash": "16654464098863188092"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "migrations.json",
         "hash": "2650076270958233661"
       },
       {
-        "file": "README.md",
-        "hash": "17585787051538338085"
+        "file": "nx.json",
+        "hash": "6697807833303087929"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8140496813707390410"
+      },
+      {
+        "file": "package.json",
+        "hash": "12353313964567955617"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "11968232764503119662"
       }
     ],
     "projectFileMap": {
-      "smart": [
-        {
-          "file": "apps/smart/.eslintrc.json",
-          "hash": "3322449398258820698"
-        },
-        {
-          "file": "apps/smart/jest.config.ts",
-          "hash": "3830718787136999125"
-        },
-        {
-          "file": "apps/smart/project.json",
-          "hash": "8939886752297939847"
-        },
-        {
-          "file": "apps/smart/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/smart/src/app/app.component.html",
-          "hash": "1517522139666160438"
-        },
-        {
-          "file": "apps/smart/src/app/app.component.spec.ts",
-          "hash": "13754688955203652904"
-        },
-        {
-          "file": "apps/smart/src/app/app.component.ts",
-          "hash": "3051772046681401574",
-          "deps": [
-            "button-id-goias"
-          ]
-        },
-        {
-          "file": "apps/smart/src/app/app.config.ts",
-          "hash": "10618457967269332155"
-        },
-        {
-          "file": "apps/smart/src/app/app.routes.ts",
-          "hash": "6185150965714414910"
-        },
-        {
-          "file": "apps/smart/src/app/nx-welcome.component.ts",
-          "hash": "10330663472105477937"
-        },
-        {
-          "file": "apps/smart/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/smart/src/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/smart/src/index.html",
-          "hash": "5868257920312034544"
-        },
-        {
-          "file": "apps/smart/src/main.ts",
-          "hash": "16635586463787978962"
-        },
-        {
-          "file": "apps/smart/src/styles.css",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "apps/smart/src/test-setup.ts",
-          "hash": "12935735732682149507"
-        },
-        {
-          "file": "apps/smart/tsconfig.app.json",
-          "hash": "8365644956319658761"
-        },
-        {
-          "file": "apps/smart/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "apps/smart/tsconfig.json",
-          "hash": "10165753922017812673"
-        },
-        {
-          "file": "apps/smart/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
       "storybook-host": [
         {
           "file": "libs/storybook-host/.eslintrc.json",
@@ -250,7 +165,10 @@
         },
         {
           "file": "libs/storybook-host/src/test-setup.ts",
-          "hash": "12935735732682149507"
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
         },
         {
           "file": "libs/storybook-host/tsconfig.json",
@@ -271,27 +189,27 @@
       ],
       "button-id-goias": [
         {
-          "file": "libs/button-id-goias/.eslintrc.json",
-          "hash": "6002661236533258227"
+          "file": "libs/ui/button-id-goias/.eslintrc.json",
+          "hash": "9035071487596577859"
         },
         {
-          "file": "libs/button-id-goias/README.md",
+          "file": "libs/ui/button-id-goias/README.md",
           "hash": "2218067692980946949"
         },
         {
-          "file": "libs/button-id-goias/jest.config.ts",
-          "hash": "5361696993135254445"
+          "file": "libs/ui/button-id-goias/jest.config.ts",
+          "hash": "16436415345268301786"
         },
         {
-          "file": "libs/button-id-goias/ng-package.json",
-          "hash": "148343468317908841"
+          "file": "libs/ui/button-id-goias/ng-package.json",
+          "hash": "10514358158537441284"
         },
         {
-          "file": "libs/button-id-goias/package-lock.json",
+          "file": "libs/ui/button-id-goias/package-lock.json",
           "hash": "442021846726489755"
         },
         {
-          "file": "libs/button-id-goias/package.json",
+          "file": "libs/ui/button-id-goias/package.json",
           "hash": "8586876817404985888",
           "deps": [
             "npm:@angular/common",
@@ -300,47 +218,165 @@
           ]
         },
         {
-          "file": "libs/button-id-goias/project.json",
-          "hash": "15324977538023777213"
+          "file": "libs/ui/button-id-goias/project.json",
+          "hash": "12509816372926577641"
         },
         {
-          "file": "libs/button-id-goias/src/index.ts",
+          "file": "libs/ui/button-id-goias/src/index.ts",
           "hash": "14811102166532769032"
         },
         {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.css",
-          "hash": "7454533418733772494"
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.css",
+          "hash": "6324894638358536931"
         },
         {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.html",
-          "hash": "10346959324016044539"
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.html",
+          "hash": "10153563808014549"
         },
         {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.spec.ts",
-          "hash": "11564416948649277517"
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.spec.ts",
+          "hash": "11564416948649277517",
+          "deps": [
+            "npm:@angular/core"
+          ]
         },
         {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.ts",
-          "hash": "9462591668550617392"
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.ts",
+          "hash": "9462591668550617392",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
         },
         {
-          "file": "libs/button-id-goias/src/test-setup.ts",
-          "hash": "12935735732682149507"
+          "file": "libs/ui/button-id-goias/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
         },
         {
-          "file": "libs/button-id-goias/tsconfig.json",
-          "hash": "15487755565970508470"
+          "file": "libs/ui/button-id-goias/tsconfig.json",
+          "hash": "8526453262384300416"
         },
         {
-          "file": "libs/button-id-goias/tsconfig.lib.json",
-          "hash": "5796668385415907511"
+          "file": "libs/ui/button-id-goias/tsconfig.lib.json",
+          "hash": "6020606002228403423"
         },
         {
-          "file": "libs/button-id-goias/tsconfig.lib.prod.json",
+          "file": "libs/ui/button-id-goias/tsconfig.lib.prod.json",
           "hash": "174503844014784742"
         },
         {
-          "file": "libs/button-id-goias/tsconfig.spec.json",
+          "file": "libs/ui/button-id-goias/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
+      "smart": [
+        {
+          "file": "apps/smart/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/smart/jest.config.ts",
+          "hash": "3830718787136999125"
+        },
+        {
+          "file": "apps/smart/project.json",
+          "hash": "8939886752297939847"
+        },
+        {
+          "file": "apps/smart/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/smart/src/app/app.component.html",
+          "hash": "1517522139666160438"
+        },
+        {
+          "file": "apps/smart/src/app/app.component.spec.ts",
+          "hash": "13754688955203652904",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/smart/src/app/app.component.ts",
+          "hash": "3051772046681401574",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "button-id-goias"
+          ]
+        },
+        {
+          "file": "apps/smart/src/app/app.config.ts",
+          "hash": "10618457967269332155",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/smart/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/smart/src/app/nx-welcome.component.ts",
+          "hash": "10330663472105477937",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/smart/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/smart/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/smart/src/index.html",
+          "hash": "5868257920312034544"
+        },
+        {
+          "file": "apps/smart/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/smart/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/smart/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/smart/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/smart/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/smart/tsconfig.json",
+          "hash": "10165753922017812673"
+        },
+        {
+          "file": "apps/smart/tsconfig.spec.json",
           "hash": "2927375835638640771"
         }
       ]

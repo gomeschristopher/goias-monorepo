@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@goias-ssi/button-id-goias": ["libs/button-id-goias/src/index.ts"],
+      "@goias-ssi/button-id-goias": ["libs/ui/button-id-goias/src/index.ts"],
       "@goias/ds-storybook": ["libs/storybook-host/src/index.ts"]
     }
   },

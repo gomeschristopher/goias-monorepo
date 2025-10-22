@@ -83,7 +83,7 @@
   }, 
   "release": {
     "projects": [
-      "libs/button-id-goias"
+      "libs/ui/*"
     ]
   }
 }

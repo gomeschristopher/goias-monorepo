@@ -4,7 +4,7 @@
       "name": "button-id-goias",
       "type": "lib",
       "data": {
-        "root": "libs/button-id-goias",
+        "root": "libs/ui/button-id-goias",
         "name": "button-id-goias",
         "tags": [
           "npm:public"
@@ -24,7 +24,7 @@
               "build"
             ],
             "options": {
-              "packageRoot": "dist/libs/button-id-goias"
+              "packageRoot": "dist/libs/ui/button-id-goias"
             },
             "configurations": {},
             "parallelism": true
@@ -35,14 +35,14 @@
               "{workspaceRoot}/dist/{projectRoot}"
             ],
             "options": {
-              "project": "libs/button-id-goias/ng-package.json"
+              "project": "libs/ui/button-id-goias/ng-package.json"
             },
             "configurations": {
               "production": {
-                "tsConfig": "libs/button-id-goias/tsconfig.lib.prod.json"
+                "tsConfig": "libs/ui/button-id-goias/tsconfig.lib.prod.json"
               },
               "development": {
-                "tsConfig": "libs/button-id-goias/tsconfig.lib.json"
+                "tsConfig": "libs/ui/button-id-goias/tsconfig.lib.json"
               }
             },
             "defaultConfiguration": "production",
@@ -62,7 +62,7 @@
               "{workspaceRoot}/coverage/{projectRoot}"
             ],
             "options": {
-              "jestConfig": "libs/button-id-goias/jest.config.ts",
+              "jestConfig": "libs/ui/button-id-goias/jest.config.ts",
               "passWithNoTests": true
             },
             "configurations": {
@@ -93,8 +93,8 @@
             ]
           }
         },
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "libs/button-id-goias/src",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/ui/button-id-goias/src",
         "prefix": "go",
         "projectType": "library",
         "implicitDependencies": []
@@ -16317,6 +16317,11 @@
         "source": "button-id-goias",
         "target": "npm:tslib",
         "type": "static"
+      },
+      {
+        "source": "button-id-goias",
+        "target": "npm:jest-preset-angular",
+        "type": "static"
       }
     ],
     "storybook-host": [
@@ -16354,12 +16359,42 @@
         "source": "storybook-host",
         "target": "button-id-goias",
         "type": "static"
+      },
+      {
+        "source": "storybook-host",
+        "target": "npm:jest-preset-angular",
+        "type": "static"
       }
     ],
     "smart": [
       {
         "source": "smart",
+        "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "smart",
+        "target": "npm:@angular/router",
+        "type": "static"
+      },
+      {
+        "source": "smart",
         "target": "button-id-goias",
+        "type": "static"
+      },
+      {
+        "source": "smart",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "smart",
+        "target": "npm:@angular/platform-browser",
+        "type": "static"
+      },
+      {
+        "source": "smart",
+        "target": "npm:jest-preset-angular",
         "type": "static"
       }
     ],
@@ -38851,5 +38886,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761071394627
+  "computedAt": 1761135131706
 }
