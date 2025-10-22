@@ -84,6 +84,9 @@
   "release": {
     "projects": [
       "libs/ui/*"
-    ]
+    ],
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }
