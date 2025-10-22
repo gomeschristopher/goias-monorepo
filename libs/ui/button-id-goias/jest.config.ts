@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
   displayName: 'button-id-goias',
-  preset: '../../jest.preset.js',
+  preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/libs/button-id-goias',
+  coverageDirectory: '../../../coverage/libs/ui/button-id-goias',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
