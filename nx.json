@@ -80,12 +80,11 @@
     "@nx/angular:component": {
       "style": "css"
     }
-  }, 
+  },
   "release": {
-    "projects": [
-      "libs/ui/*"
-    ],
+    "projects": ["libs/ui/*"],
     "version": {
+      "preVersionCommand": "npx nx run-many -t build",
       "conventionalCommits": true
     }
   }
