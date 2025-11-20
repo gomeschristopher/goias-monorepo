@@ -1,3 +1,13 @@
+## 0.2.1 (2025-11-20)
+
+### 🩹 Fixes
+
+- alterar doc do botão ([b69ebc6](https://github.com/gomeschristopher/goias-monorepo/commit/b69ebc6))
+
+### ❤️ Thank You
+
+- Christopher
+
 ## 0.2.0 (2025-11-20)
 
 ### 🚀 Features
