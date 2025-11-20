@@ -8419,9 +8419,9 @@
       "type": "npm",
       "name": "npm:baseline-browser-mapping",
       "data": {
-        "version": "2.8.6",
+        "version": "2.8.29",
         "packageName": "baseline-browser-mapping",
-        "hash": "sha512-wrH5NNqren/QMtKUEEJf7z86YjfqW/2uw3IL3/xpqZUC95SSVIFXYQeeGjL6FT/X68IROu6RMehZQS5foy2BXw=="
+        "hash": "sha512-sXdt2elaVnhpDNRDz+1BDx1JQoJRuNk7oVlAlbGiFkLikHCAQiccexF/9e91zVi6RCgqspl04aP+6Cnl9zRLrA=="
       }
     },
     "npm:basic-auth": {

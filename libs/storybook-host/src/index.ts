@@ -1,0 +1,1 @@
+export const storybookHost = 'lib';
