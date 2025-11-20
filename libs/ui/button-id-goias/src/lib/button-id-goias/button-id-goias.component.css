@@ -1,13 +1,9 @@
 :host button {
-  font-family: sans-serif;
-  font-size: 100%;
-  line-height: 1.15;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-weight: 600;
   width: 27.5rem;
   height: 3.5rem;
   border-radius: 6.25rem;

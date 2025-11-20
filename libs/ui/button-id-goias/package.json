@@ -6,7 +6,8 @@
     "@angular/core": "^19.2.15"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "@goias-ssi/typography": "0.0.1"
   },
   "sideEffects": false,
   "publishConfig": {

@@ -3,5 +3,6 @@
   "dest": "../../../dist/libs/ui/button-id-goias",
   "lib": {
     "entryFile": "src/index.ts"
-  }
+  },
+  "allowedNonPeerDependencies": ["@goias-ssi/*"]
 }
