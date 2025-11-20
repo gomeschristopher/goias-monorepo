@@ -1,6 +1,6 @@
 {
   "name": "@goias-ssi/button-id-goias",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "peerDependencies": {
     "@angular/common": "^19.2.15",
     "@angular/core": "^19.2.15"
