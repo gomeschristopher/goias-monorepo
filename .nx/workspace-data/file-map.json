@@ -3,7 +3,10 @@
   "nxVersion": "20.5.0",
   "pathMappings": {
     "@goias-ssi/button-id-goias": [
-      "libs/button-id-goias/src/index.ts"
+      "libs/ui/button-id-goias/src/index.ts"
+    ],
+    "@goias-ssi/typography": [
+      "libs/ui/typography/src/index.ts"
     ],
     "@goias/ds-storybook": [
       "libs/storybook-host/src/index.ts"
@@ -11,73 +14,182 @@
   },
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "2650076270958233661"
-      },
-      {
-        "file": "nx.json",
-        "hash": "16627082522123668221"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13405269190411680430"
-      },
-      {
-        "file": "package.json",
-        "hash": "3750582808535404292"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "CHANGELOG.md",
-        "hash": "18328256492162563661"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8491837053101957257"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "README.md",
-        "hash": "2888339962009056139"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "11915708040367610097"
-      }
-    ],
+    "nonProjectFiles": [],
     "projectFileMap": {
+      "typography": [
+        {
+          "file": "libs/ui/typography/.eslintrc.json",
+          "hash": "13265771969423562621"
+        },
+        {
+          "file": "libs/ui/typography/README.md",
+          "hash": "1909385326616823020"
+        },
+        {
+          "file": "libs/ui/typography/jest.config.ts",
+          "hash": "9269501991686108548"
+        },
+        {
+          "file": "libs/ui/typography/ng-package.json",
+          "hash": "6977373492058270635"
+        },
+        {
+          "file": "libs/ui/typography/package.json",
+          "hash": "13060540787015897300",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/ui/typography/project.json",
+          "hash": "217521024577686512"
+        },
+        {
+          "file": "libs/ui/typography/src/index.ts",
+          "hash": "13451382548879632744"
+        },
+        {
+          "file": "libs/ui/typography/src/lib/typography/dynamic.component.ts",
+          "hash": "13951625525775592573",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/ui/typography/src/lib/typography/typography.component.css",
+          "hash": "9817314546687434505"
+        },
+        {
+          "file": "libs/ui/typography/src/lib/typography/typography.component.html",
+          "hash": "10078919855742434978"
+        },
+        {
+          "file": "libs/ui/typography/src/lib/typography/typography.component.spec.ts",
+          "hash": "2044136547409968472",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/ui/typography/src/lib/typography/typography.component.ts",
+          "hash": "13849269621600058564",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/ui/typography/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/ui/typography/tsconfig.json",
+          "hash": "1948416733966154877"
+        },
+        {
+          "file": "libs/ui/typography/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/ui/typography/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "libs/ui/typography/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
+      "button-id-goias": [
+        {
+          "file": "libs/ui/button-id-goias/.eslintrc.json",
+          "hash": "9035071487596577859"
+        },
+        {
+          "file": "libs/ui/button-id-goias/README.md",
+          "hash": "2218067692980946949"
+        },
+        {
+          "file": "libs/ui/button-id-goias/jest.config.ts",
+          "hash": "16436415345268301786"
+        },
+        {
+          "file": "libs/ui/button-id-goias/ng-package.json",
+          "hash": "7533287186400654893"
+        },
+        {
+          "file": "libs/ui/button-id-goias/package-lock.json",
+          "hash": "442021846726489755"
+        },
+        {
+          "file": "libs/ui/button-id-goias/package.json",
+          "hash": "17983841709524578363",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:tslib",
+            "typography"
+          ]
+        },
+        {
+          "file": "libs/ui/button-id-goias/project.json",
+          "hash": "12509816372926577641"
+        },
+        {
+          "file": "libs/ui/button-id-goias/src/index.ts",
+          "hash": "14811102166532769032"
+        },
+        {
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.css",
+          "hash": "9459241295394591039"
+        },
+        {
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.html",
+          "hash": "5716676472174795307"
+        },
+        {
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.spec.ts",
+          "hash": "11564416948649277517",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/ui/button-id-goias/src/lib/button-id-goias/button-id-goias.component.ts",
+          "hash": "18402050798589836848",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "typography"
+          ]
+        },
+        {
+          "file": "libs/ui/button-id-goias/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/ui/button-id-goias/tsconfig.json",
+          "hash": "8526453262384300416"
+        },
+        {
+          "file": "libs/ui/button-id-goias/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/ui/button-id-goias/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "libs/ui/button-id-goias/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
       "smart": [
         {
           "file": "apps/smart/.eslintrc.json",
@@ -101,26 +213,43 @@
         },
         {
           "file": "apps/smart/src/app/app.component.spec.ts",
-          "hash": "13754688955203652904"
+          "hash": "13754688955203652904",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
         },
         {
           "file": "apps/smart/src/app/app.component.ts",
           "hash": "3051772046681401574",
           "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
             "button-id-goias"
           ]
         },
         {
           "file": "apps/smart/src/app/app.config.ts",
-          "hash": "10618457967269332155"
+          "hash": "10618457967269332155",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
         },
         {
           "file": "apps/smart/src/app/app.routes.ts",
-          "hash": "6185150965714414910"
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
         },
         {
           "file": "apps/smart/src/app/nx-welcome.component.ts",
-          "hash": "10330663472105477937"
+          "hash": "10330663472105477937",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
         },
         {
           "file": "apps/smart/src/assets/.gitkeep",
@@ -136,7 +265,10 @@
         },
         {
           "file": "apps/smart/src/main.ts",
-          "hash": "16635586463787978962"
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
         },
         {
           "file": "apps/smart/src/styles.css",
@@ -144,7 +276,10 @@
         },
         {
           "file": "apps/smart/src/test-setup.ts",
-          "hash": "12935735732682149507"
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
         },
         {
           "file": "apps/smart/tsconfig.app.json",
@@ -163,81 +298,6 @@
           "hash": "2927375835638640771"
         }
       ],
-      "button-id-goias": [
-        {
-          "file": "libs/button-id-goias/.eslintrc.json",
-          "hash": "6002661236533258227"
-        },
-        {
-          "file": "libs/button-id-goias/README.md",
-          "hash": "2218067692980946949"
-        },
-        {
-          "file": "libs/button-id-goias/jest.config.ts",
-          "hash": "5361696993135254445"
-        },
-        {
-          "file": "libs/button-id-goias/ng-package.json",
-          "hash": "148343468317908841"
-        },
-        {
-          "file": "libs/button-id-goias/package-lock.json",
-          "hash": "442021846726489755"
-        },
-        {
-          "file": "libs/button-id-goias/package.json",
-          "hash": "8586876817404985888",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/button-id-goias/project.json",
-          "hash": "15324977538023777213"
-        },
-        {
-          "file": "libs/button-id-goias/src/index.ts",
-          "hash": "14811102166532769032"
-        },
-        {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.css",
-          "hash": "7454533418733772494"
-        },
-        {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.html",
-          "hash": "10346959324016044539"
-        },
-        {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.spec.ts",
-          "hash": "11564416948649277517"
-        },
-        {
-          "file": "libs/button-id-goias/src/lib/button-id-goias/button-id-goias.component.ts",
-          "hash": "9462591668550617392"
-        },
-        {
-          "file": "libs/button-id-goias/src/test-setup.ts",
-          "hash": "12935735732682149507"
-        },
-        {
-          "file": "libs/button-id-goias/tsconfig.json",
-          "hash": "15487755565970508470"
-        },
-        {
-          "file": "libs/button-id-goias/tsconfig.lib.json",
-          "hash": "5796668385415907511"
-        },
-        {
-          "file": "libs/button-id-goias/tsconfig.lib.prod.json",
-          "hash": "174503844014784742"
-        },
-        {
-          "file": "libs/button-id-goias/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
       "storybook-host": [
         {
           "file": "libs/storybook-host/.eslintrc.json",
@@ -245,18 +305,22 @@
         },
         {
           "file": "libs/storybook-host/.storybook/main.ts",
-          "hash": "9866553078942694504"
+          "hash": "14436988096756493778",
+          "deps": [
+            "npm:@storybook/angular"
+          ]
         },
         {
           "file": "libs/storybook-host/.storybook/preview.ts",
-          "hash": "1877273904395166189",
+          "hash": "7417580931375328439",
           "deps": [
-            "npm:zone.js"
+            "npm:zone.js",
+            "npm:@storybook/addon-docs"
           ]
         },
         {
           "file": "libs/storybook-host/.storybook/tsconfig.json",
-          "hash": "3580233103277275370"
+          "hash": "4639930083210753507"
         },
         {
           "file": "libs/storybook-host/README.md",
@@ -285,22 +349,58 @@
         },
         {
           "file": "libs/storybook-host/project.json",
-          "hash": "62211647117918020"
+          "hash": "9800751317779722950"
         },
         {
           "file": "libs/storybook-host/src/index.ts",
           "hash": "3244421341483603138"
         },
         {
+          "file": "libs/storybook-host/src/lib/Atoms/colors.mdx",
+          "hash": "11425482482707880195"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Atoms/typography.component.stories.ts",
+          "hash": "2015620979258066711",
+          "deps": [
+            "npm:@storybook/angular",
+            "typography"
+          ]
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Introdução.mdx",
+          "hash": "4809107540285755144"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/Docs.mdx",
+          "hash": "12515813556002416890"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/button-id-goias/button-id-goias.component.stories.ts",
+          "hash": "9512438691685652727",
+          "deps": [
+            "npm:@storybook/angular",
+            "button-id-goias"
+          ]
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/button-id-goias/como-importar-button.mdx",
+          "hash": "4305908338785236863"
+        },
+        {
           "file": "libs/storybook-host/src/stories/button-id-goias.component.stories.ts",
           "hash": "9512438691685652727",
           "deps": [
+            "npm:@storybook/angular",
             "button-id-goias"
           ]
         },
         {
           "file": "libs/storybook-host/src/test-setup.ts",
-          "hash": "12935735732682149507"
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
         },
         {
           "file": "libs/storybook-host/tsconfig.json",
@@ -317,6 +417,157 @@
         {
           "file": "libs/storybook-host/tsconfig.spec.json",
           "hash": "2927375835638640771"
+        }
+      ],
+      "@goias-monorepo/source": [
+        {
+          "file": ".editorconfig",
+          "hash": "5443105041930014821"
+        },
+        {
+          "file": ".eslintignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "18315524891129148814"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "16414154088604987531"
+        },
+        {
+          "file": ".gitlab-ci.yml",
+          "hash": "3257201479836507190"
+        },
+        {
+          "file": ".nvmrc",
+          "hash": "558052926296377284"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "3395189204293871444"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".verdaccio/config.yml",
+          "hash": "300035921567345902"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "4934098906304722861"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "hash": "18328256492162563661"
+        },
+        {
+          "file": "README.md",
+          "hash": "17585787051538338085"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "3494843969422251966",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "migrations.json",
+          "hash": "2650076270958233661"
+        },
+        {
+          "file": "nx.json",
+          "hash": "14418866984603548871"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "14158339172997049589"
+        },
+        {
+          "file": "package.json",
+          "hash": "5883005756552704180",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular-devkit/core",
+            "npm:@angular-devkit/schematics",
+            "npm:@angular-eslint/eslint-plugin",
+            "npm:@angular-eslint/eslint-plugin-template",
+            "npm:@angular-eslint/template-parser",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@angular/language-service",
+            "npm:@compodoc/compodoc",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/storybook",
+            "npm:@nx/web",
+            "npm:@nx/workspace",
+            "npm:@schematics/angular",
+            "npm:@storybook/addon-essentials",
+            "npm:@storybook/angular",
+            "npm:@storybook/core-server",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@typescript-eslint/utils",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:jest-preset-angular",
+            "npm:jsonc-eslint-parser",
+            "npm:ng-packagr",
+            "npm:nx",
+            "npm:postcss",
+            "npm:postcss-url",
+            "npm:prettier",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:typescript",
+            "npm:verdaccio",
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@nx/angular",
+            "npm:@storybook/addon-interactions",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rxjs",
+            "npm:storybook",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "12106368074379514663"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "14206484118089777016"
         }
       ]
     }

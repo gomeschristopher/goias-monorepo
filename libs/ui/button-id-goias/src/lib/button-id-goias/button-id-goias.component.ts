@@ -1,14 +1,21 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TypographyComponent } from '@goias-ssi/typography';
 
 @Component({
   selector: 'button-id-goias',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    TypographyComponent,
+  ],
   templateUrl: './button-id-goias.component.html',
   styleUrl: './button-id-goias.component.css',
 })
 export class ButtonIdGoiasComponent {
+  /**
+   * Descrição do rótulo do botão
+   */
   @Input() label: string | null = null;
   @Input() variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
   @Input() disabled = false;

@@ -80,10 +80,12 @@
     "@nx/angular:component": {
       "style": "css"
     }
-  }, 
+  },
   "release": {
-    "projects": [
-      "libs/button-id-goias"
-    ]
+    "projects": ["libs/ui/*"],
+    "version": {
+      "preVersionCommand": "npx nx run-many -t build",
+      "conventionalCommits": true
+    }
   }
 }
