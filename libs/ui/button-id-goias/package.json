@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "tslib": "^2.3.0",
-    "@goias-ssi/typography": "0.0.1"
+    "@goias-ssi/typography": "0.2.1"
   },
   "sideEffects": false,
   "publishConfig": {
