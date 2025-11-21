@@ -1,0 +1,33 @@
+import { AfterViewChecked, Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TypographyComponent } from '@goias-ssi/typography';
+
+@Component({
+  selector: 'go-modal',
+  imports: [CommonModule, TypographyComponent],
+  templateUrl: './modal.component.html',
+  styleUrl: './modal.component.css',
+})
+export class ModalComponent implements AfterViewChecked {
+  @Input() isOpen: boolean = false;
+  @Input() modalTitle: string = '';
+
+  @Output() closed = new EventEmitter<void>();
+
+  @ViewChild('modal') modal!: ElementRef<HTMLDialogElement>;
+
+  ngAfterViewChecked(): void {
+    if (this.isOpen) {
+      this.modal.nativeElement.showModal();
+    } else {
+      this.modal.nativeElement.close();
+    }
+  }
+
+  closeModal() {
+    if (this.isOpen) {
+      this.isOpen = false;
+      this.closed.emit();
+    }
+  }
+}

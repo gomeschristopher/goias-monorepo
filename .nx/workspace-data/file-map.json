@@ -8,6 +8,9 @@
     "@goias-ssi/ds-storybook": [
       "libs/storybook-host/src/index.ts"
     ],
+    "@goias-ssi/modal": [
+      "libs/ui/modal/src/index.ts"
+    ],
     "@goias-ssi/typography": [
       "libs/ui/typography/src/index.ts"
     ]
@@ -16,158 +19,6 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
-      "@goias-monorepo/source": [
-        {
-          "file": ".editorconfig",
-          "hash": "5443105041930014821"
-        },
-        {
-          "file": ".eslintignore",
-          "hash": "7663861978715868291"
-        },
-        {
-          "file": ".eslintrc.json",
-          "hash": "18315524891129148814"
-        },
-        {
-          "file": ".gitignore",
-          "hash": "16414154088604987531"
-        },
-        {
-          "file": ".gitlab-ci.yml",
-          "hash": "3257201479836507190"
-        },
-        {
-          "file": ".nvmrc",
-          "hash": "558052926296377284"
-        },
-        {
-          "file": ".prettierignore",
-          "hash": "3395189204293871444"
-        },
-        {
-          "file": ".prettierrc",
-          "hash": "16267754514737964994"
-        },
-        {
-          "file": ".verdaccio/config.yml",
-          "hash": "300035921567345902"
-        },
-        {
-          "file": ".vscode/extensions.json",
-          "hash": "4934098906304722861"
-        },
-        {
-          "file": "CHANGELOG.md",
-          "hash": "17255868418112230834"
-        },
-        {
-          "file": "README.md",
-          "hash": "17585787051538338085"
-        },
-        {
-          "file": "jest.config.ts",
-          "hash": "3494843969422251966",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "jest.preset.js",
-          "hash": "9430166341120122740",
-          "deps": [
-            "npm:@nx/jest"
-          ]
-        },
-        {
-          "file": "migrations.json",
-          "hash": "2650076270958233661"
-        },
-        {
-          "file": "nx.json",
-          "hash": "14418866984603548871"
-        },
-        {
-          "file": "package-lock.json",
-          "hash": "1278658178131019126"
-        },
-        {
-          "file": "package.json",
-          "hash": "6706240814610286029",
-          "deps": [
-            "npm:@angular-devkit/build-angular",
-            "npm:@angular-devkit/core",
-            "npm:@angular-devkit/schematics",
-            "npm:@angular-eslint/eslint-plugin",
-            "npm:@angular-eslint/eslint-plugin-template",
-            "npm:@angular-eslint/template-parser",
-            "npm:@angular/cli",
-            "npm:@angular/compiler-cli",
-            "npm:@angular/language-service",
-            "npm:@compodoc/compodoc",
-            "npm:@nx/eslint",
-            "npm:@nx/eslint-plugin",
-            "npm:@nx/jest",
-            "npm:@nx/js",
-            "npm:@nx/storybook",
-            "npm:@nx/web",
-            "npm:@nx/workspace",
-            "npm:@schematics/angular",
-            "npm:@storybook/addon-essentials",
-            "npm:@storybook/angular",
-            "npm:@storybook/core-server",
-            "npm:@swc-node/register",
-            "npm:@swc/core",
-            "npm:@swc/helpers",
-            "npm:@types/jest",
-            "npm:@types/node",
-            "npm:@typescript-eslint/eslint-plugin",
-            "npm:@typescript-eslint/parser",
-            "npm:@typescript-eslint/utils",
-            "npm:autoprefixer",
-            "npm:baseline-browser-mapping",
-            "npm:eslint",
-            "npm:eslint-config-prettier",
-            "npm:jest",
-            "npm:jest-environment-jsdom",
-            "npm:jest-preset-angular",
-            "npm:jsonc-eslint-parser",
-            "npm:ng-packagr",
-            "npm:nx",
-            "npm:postcss",
-            "npm:postcss-url",
-            "npm:prettier",
-            "npm:ts-jest",
-            "npm:ts-node",
-            "npm:typescript",
-            "npm:verdaccio",
-            "npm:@angular/animations",
-            "npm:@angular/common",
-            "npm:@angular/compiler",
-            "npm:@angular/core",
-            "npm:@angular/forms",
-            "npm:@angular/platform-browser",
-            "npm:@angular/platform-browser-dynamic",
-            "npm:@angular/router",
-            "npm:@nx/angular",
-            "npm:@storybook/addon-interactions",
-            "npm:react",
-            "npm:react-dom",
-            "npm:rxjs",
-            "npm:storybook",
-            "npm:tslib",
-            "npm:zone.js"
-          ]
-        },
-        {
-          "file": "project.json",
-          "hash": "12106368074379514663"
-        },
-        {
-          "file": "tsconfig.base.json",
-          "hash": "4709705302416623055"
-        }
-      ],
       "typography": [
         {
           "file": "libs/ui/typography/.eslintrc.json",
@@ -252,6 +103,87 @@
         },
         {
           "file": "libs/ui/typography/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
+      "modal": [
+        {
+          "file": "libs/ui/modal/.eslintrc.json",
+          "hash": "13265771969423562621"
+        },
+        {
+          "file": "libs/ui/modal/README.md",
+          "hash": "14671945650469913392"
+        },
+        {
+          "file": "libs/ui/modal/jest.config.ts",
+          "hash": "4265436182343003696"
+        },
+        {
+          "file": "libs/ui/modal/ng-package.json",
+          "hash": "5226389218350027928"
+        },
+        {
+          "file": "libs/ui/modal/package.json",
+          "hash": "12688326331484294776",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/ui/modal/project.json",
+          "hash": "16262244993483094887"
+        },
+        {
+          "file": "libs/ui/modal/src/index.ts",
+          "hash": "10734837984706760059"
+        },
+        {
+          "file": "libs/ui/modal/src/lib/modal/modal.component.css",
+          "hash": "17994227862963120600"
+        },
+        {
+          "file": "libs/ui/modal/src/lib/modal/modal.component.html",
+          "hash": "1952094353116043383"
+        },
+        {
+          "file": "libs/ui/modal/src/lib/modal/modal.component.spec.ts",
+          "hash": "14705401163122034179",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/ui/modal/src/lib/modal/modal.component.ts",
+          "hash": "6982807081115092226",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "typography"
+          ]
+        },
+        {
+          "file": "libs/ui/modal/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/ui/modal/tsconfig.json",
+          "hash": "1948416733966154877"
+        },
+        {
+          "file": "libs/ui/modal/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/ui/modal/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "libs/ui/modal/tsconfig.spec.json",
           "hash": "7159729809249402441"
         }
       ],
@@ -453,6 +385,20 @@
           "hash": "4305908338785236863"
         },
         {
+          "file": "libs/storybook-host/src/lib/Molecules/modal/Docs.mdx",
+          "hash": "2390907861675614007"
+        },
+        {
+          "file": "libs/storybook-host/src/lib/Molecules/modal/modal.component.stories.ts",
+          "hash": "2909723751115082646",
+          "deps": [
+            "npm:@storybook/angular",
+            "modal",
+            "button-id-goias",
+            "typography"
+          ]
+        },
+        {
           "file": "libs/storybook-host/src/stories/button-id-goias.component.stories.ts",
           "hash": "9512438691685652727",
           "deps": [
@@ -569,6 +515,158 @@
         {
           "file": "libs/ui/button-id-goias/tsconfig.spec.json",
           "hash": "7159729809249402441"
+        }
+      ],
+      "@goias-monorepo/source": [
+        {
+          "file": ".editorconfig",
+          "hash": "5443105041930014821"
+        },
+        {
+          "file": ".eslintignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "18315524891129148814"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "16414154088604987531"
+        },
+        {
+          "file": ".gitlab-ci.yml",
+          "hash": "3257201479836507190"
+        },
+        {
+          "file": ".nvmrc",
+          "hash": "558052926296377284"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "3395189204293871444"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".verdaccio/config.yml",
+          "hash": "300035921567345902"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "4934098906304722861"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "hash": "17255868418112230834"
+        },
+        {
+          "file": "README.md",
+          "hash": "17585787051538338085"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "3494843969422251966",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "migrations.json",
+          "hash": "2650076270958233661"
+        },
+        {
+          "file": "nx.json",
+          "hash": "14418866984603548871"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "1278658178131019126"
+        },
+        {
+          "file": "package.json",
+          "hash": "6706240814610286029",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular-devkit/core",
+            "npm:@angular-devkit/schematics",
+            "npm:@angular-eslint/eslint-plugin",
+            "npm:@angular-eslint/eslint-plugin-template",
+            "npm:@angular-eslint/template-parser",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@angular/language-service",
+            "npm:@compodoc/compodoc",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/storybook",
+            "npm:@nx/web",
+            "npm:@nx/workspace",
+            "npm:@schematics/angular",
+            "npm:@storybook/addon-essentials",
+            "npm:@storybook/angular",
+            "npm:@storybook/core-server",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@typescript-eslint/utils",
+            "npm:autoprefixer",
+            "npm:baseline-browser-mapping",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:jest-preset-angular",
+            "npm:jsonc-eslint-parser",
+            "npm:ng-packagr",
+            "npm:nx",
+            "npm:postcss",
+            "npm:postcss-url",
+            "npm:prettier",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:typescript",
+            "npm:verdaccio",
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@nx/angular",
+            "npm:@storybook/addon-interactions",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rxjs",
+            "npm:storybook",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "12106368074379514663"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "16532521027003844907"
         }
       ]
     }
