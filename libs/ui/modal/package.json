@@ -5,6 +5,9 @@
     "@angular/common": "^19.2.0",
     "@angular/core": "^19.2.0"
   },
+  "dependencies": {
+    "@goias-ssi/typography": "0.2.1"
+  },
   "sideEffects": false,
   "publishConfig": {
     "access": "public"

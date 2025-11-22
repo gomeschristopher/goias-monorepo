@@ -9,10 +9,10 @@ import { TypographyComponent } from '@goias-ssi/typography';
   styleUrl: './modal.component.css',
 })
 export class ModalComponent implements AfterViewChecked {
-  @Input() isOpen: boolean = false;
-  @Input() modalTitle: string = '';
+   @Input() isOpen = false;
+  @Input() modalTitle = '';
 
-  @Output() closed = new EventEmitter<void>();
+  @Output() closed = new EventEmitter();
 
   @ViewChild('modal') modal!: ElementRef<HTMLDialogElement>;
 
@@ -26,7 +26,6 @@ export class ModalComponent implements AfterViewChecked {
 
   closeModal() {
     if (this.isOpen) {
-      this.isOpen = false;
       this.closed.emit();
     }
   }

@@ -12,6 +12,11 @@ describe('ModalComponent', () => {
 
     fixture = TestBed.createComponent(ModalComponent);
     component = fixture.componentInstance;
+
+    // Mock HTMLDialogElement methods because JSDOM does not implement them
+    HTMLDialogElement.prototype.showModal = jest.fn();
+    HTMLDialogElement.prototype.close = jest.fn();
+
     fixture.detectChanges();
   });
 

@@ -18,7 +18,7 @@ const meta: Meta<ModalComponent> = {
     template: `
       <go-modal ${argsToTemplate(args)}>
       <go-typography variant="normal">This is an example of modal content.</go-typography>
-      <button-id-goias (click)="isOpen = false" label="Autenticar"></button-id-goias>
+      <go-button-id-goias (click)="isOpen = false" label="Autenticar"></go-button-id-goias>
       </go-modal>
     `,
   })

@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TypographyComponent } from '@goias-ssi/typography';
 
 @Component({
-  selector: 'button-id-goias',
+  selector: 'go-button-id-goias',
   standalone: true,
   imports: [
     CommonModule,
