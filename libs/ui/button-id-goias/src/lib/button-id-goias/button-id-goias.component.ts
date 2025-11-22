@@ -14,7 +14,7 @@ import { TypographyComponent } from '@goias-ssi/typography';
 })
 export class ButtonIdGoiasComponent {
   /**
-   * Descrição a ser exibida no botão
+   * Button label
    */
   @Input() label: string | null = null;
   @Input() variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
