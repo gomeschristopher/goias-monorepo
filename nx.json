@@ -35,15 +35,8 @@
     "@nx/jest:jest": {
       "cache": true,
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
-      "options": {
-        "passWithNoTests": true
-      },
-      "configurations": {
-        "ci": {
-          "ci": true,
-          "codeCoverage": true
-        }
-      }
+      "options": { "passWithNoTests": true },
+      "configurations": { "ci": { "ci": true, "codeCoverage": true } }
     },
     "@nx/angular:package": {
       "cache": true,
@@ -61,9 +54,7 @@
     },
     "nx-release-publish": {
       "dependsOn": ["build"],
-      "options": {
-        "packageRoot": "{workspaceRoot}/dist/{projectRoot}"
-      }
+      "options": { "packageRoot": "{workspaceRoot}/dist/{projectRoot}" }
     }
   },
   "generators": {
@@ -73,13 +64,8 @@
       "style": "css",
       "unitTestRunner": "jest"
     },
-    "@nx/angular:library": {
-      "linter": "eslint",
-      "unitTestRunner": "jest"
-    },
-    "@nx/angular:component": {
-      "style": "css"
-    }
+    "@nx/angular:library": { "linter": "eslint", "unitTestRunner": "jest" },
+    "@nx/angular:component": { "style": "css" }
   },
   "release": {
     "projects": ["libs/ui/*"],
@@ -87,5 +73,6 @@
       "preVersionCommand": "npx nx run-many -t build",
       "conventionalCommits": true
     }
-  }
+  },
+  "nxCloudId": "6924343b28ba6dbaf95658d9"
 }
