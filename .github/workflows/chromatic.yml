@@ -25,5 +25,5 @@ jobs:
 
       - name: Run Chromatic
         env:
-          PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          PROJECT_TOKEN: ${{ secrets.CHROMATIC_ACCESS_TOKEN }}
         run: npx nx affected -t chromatic --args='--projectToken="$PROJECT_TOKEN"'
