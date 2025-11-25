@@ -19,7 +19,7 @@ export class ButtonIdGoiasComponent {
   @Input() label: string | null = null;
   @Input() variant: 'primary' | 'secondary' | 'tertiary' = 'primary';
   /**
-   * Disabled definition
+   * Disabled or enabled button
    */
   @Input() disabled = false;
 
