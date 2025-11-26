@@ -16,7 +16,7 @@
   background-color: #ffffff;
 }
 
-:host button > span {
+:host button>span {
   font-size: 0.875rem;
   line-height: normal;
   font-weight: 600 !important;
@@ -38,7 +38,7 @@ button.primary:hover {
   background-color: #a7d4d3;
 }
 
-button.primary > span {
+button.primary>span {
   color: #0b7675 !important;
 }
 
@@ -55,10 +55,10 @@ button.secondary::before {
 }
 
 button.secondary:hover {
-  background-color: #fff9e6;
+  background-color: red;
 }
 
-button.secondary > span {
+button.secondary>span {
   color: #f2c94c !important;
 }
 
@@ -70,7 +70,7 @@ button.secondary > span {
   cursor: not-allowed;
 }
 
-:host button:disabled > span {
+:host button:disabled>span {
   color: #bdbdbd !important;
 }
 
