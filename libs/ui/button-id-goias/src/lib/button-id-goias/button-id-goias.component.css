@@ -55,7 +55,7 @@ button.secondary::before {
 }
 
 button.secondary:hover {
-  background-color: red;
+  background-color: #fff9e6;
 }
 
 button.secondary>span {
