@@ -1,3 +1,13 @@
+## 0.2.2 (2025-11-27)
+
+### 🩹 Fixes
+
+- trigger release for button color change ([7c12032](https://github.com/gomeschristopher/goias-monorepo/commit/7c12032))
+
+### ❤️ Thank You
+
+- Christopher
+
 ## 0.2.1 (2025-11-20)
 
 ### 🩹 Fixes
